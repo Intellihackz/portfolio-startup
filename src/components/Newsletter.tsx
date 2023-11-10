@@ -25,7 +25,7 @@ export default function Newsletter() {
         boxShadow={"2xl"}
         bg={useColorModeValue("white", "gray.700")}
         rounded={"xl"}
-        p={10}
+        p={8}
         spacing={8}
         align={"center"}
       >
