@@ -55,6 +55,8 @@ export default function Navbar() {
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
           <Text
+            as={"a"}
+            href="/"
             textAlign={useBreakpointValue({ base: "center", md: "left" })}
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
@@ -259,17 +261,4 @@ interface NavItem {
   href?: string;
 }
 
-const NAV_ITEMS: Array<NavItem> = [
-  {
-    label: "Home",
-    href: "/",
-  },
-  {
-    label: "About Us",
-    href: "/about",
-  },
-  {
-    label: "Products",
-    href: "/products",
-  },
-];
+const NAV_ITEMS: Array<NavItem> = [];
