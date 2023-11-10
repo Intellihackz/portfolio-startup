@@ -198,6 +198,7 @@ export default function GetStarted() {
                       />
                     </FormControl>
                     <Button
+                      type="submit"
                       colorScheme="blue"
                       bg="blue.400"
                       color="white"
